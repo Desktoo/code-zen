@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark bg-background">
       <body className={`${cn("text-base antialiased", inter.className)} box-spotlight`}>
-        <Navbar />
+        {/* <Navbar /> */}
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
